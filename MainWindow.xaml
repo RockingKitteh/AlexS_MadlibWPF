@@ -1,0 +1,35 @@
+﻿<Window x:Class="MadlibWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MadlibWPF"
+        mc:Ignorable="d"
+        Title="Alex's Madlibs" Height="450" Width="800">
+    <Grid x:Name="base" Background="DimGray">
+        <TextBlock x:Name="___Welcome_" HorizontalAlignment="Center" Margin="0,10,0,0" Text="Welcome to Madlibs!" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" FontFamily="MV Boli"/>
+        <TextBox x:Name="_1" HorizontalAlignment="Left" Margin="171,154,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_1_TextChanged"/>
+        <TextBox x:Name="_2" HorizontalAlignment="Center" Margin="0,154,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_2_TextChanged"/>
+        <TextBox x:Name="_3" HorizontalAlignment="Left" Margin="505,154,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_3_TextChanged"/>
+        <TextBox x:Name="_4" HorizontalAlignment="Left" Margin="84,215,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_4_TextChanged"/>
+        <TextBox x:Name="_5" HorizontalAlignment="Left" Margin="247,215,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_5_TextChanged"/>
+        <TextBox x:Name="_6" HorizontalAlignment="Left" Margin="417,215,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_6_TextChanged"/>
+        <TextBox x:Name="_7" HorizontalAlignment="Left" Margin="590,215,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_7_TextChanged"/>
+        <TextBox x:Name="_9" HorizontalAlignment="Left" Margin="332,272,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_9_TextChanged"/>
+        <TextBox x:Name="_10" HorizontalAlignment="Left" Margin="502,272,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_10_TextChanged"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,73,0,0" Text="Enter a..." TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="171,125,0,0" Text="noun" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="340,125,0,0" Text="adjective" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="505,125,0,0" Text="adjective" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="84,186,0,0" Text="adjective" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="247,186,0,0" Text="occupation" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="417,186,0,0" Text="occupation" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="590,186,0,0" Text="occupation" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="169,246,0,0" Text="adjective" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="332,246,0,0" Text="noun" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="502,246,0,0" Text="noun" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="MV Boli" FontSize="16"/>
+        <Button x:Name="Write" Content="Write a Story!" HorizontalAlignment="Left" Margin="332,342,0,0" VerticalAlignment="Top" Height="48" Width="122" FontSize="16" FontFamily="MV Boli" Click="Write_Click"/>
+        <TextBox x:Name="_8" HorizontalAlignment="Left" Margin="169,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="_8_TextChanged"/>
+
+    </Grid>
+</Window>
